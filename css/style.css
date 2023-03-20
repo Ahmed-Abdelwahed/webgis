@@ -1,0 +1,42 @@
+/* Start my Frame Work */
+body {
+  direction: rtl;  
+}
+
+.myrow {
+    width: 100%;
+}
+
+/* End my Frame Work */
+ 
+.all-content .btn-dark {
+    
+} 
+
+.all-content .btn-dark:hover {
+    color: #fff; 
+} 
+
+.all-content .a-pdf {
+    width: 30%;
+    border-radius: 10%;
+    display: inherit;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #343a40; 
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #343a40; 
+    transition: 1s;
+    
+}
+
+.all-content .a-pdf:hover {
+    color: #343a40;
+    background-color: #fff;
+}
+
+.video-frame {
+    border: 1px solid #000;
+}
+ 
