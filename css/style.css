@@ -31,6 +31,31 @@ body {
     
 }
 
+
+@media (max-width: 768px) { 
+.all-content .a-pdf    {
+    width: 55%;
+    font-size: 15px;
+}
+}
+
+
+@media (max-width: 576px) { 
+.all-content .a-pdf    {
+    width: 65%;
+    font-size: 15px;
+}
+}
+
+
+@media (max-width: 400px) { 
+.all-content .a-pdf    {
+    width: 80%;
+    font-size: 12px;
+}
+}
+
+
 .all-content .a-pdf:hover {
     color: #343a40;
     background-color: #fff;
@@ -38,5 +63,39 @@ body {
 
 .video-frame {
     border: 1px solid #000;
+    width: 70%;
+    height: 400px;
+}
+
+
+@media (max-width: 768px) { 
+.video-frame    {
+    height: 220px;
+}
+}
+
+
+@media (max-width: 576px) { 
+.video-frame    {
+    height: 180px;
+}
+}
+
+
+
+
+@media (max-width: 576px) { 
+.lead {
+    font-size: 18px;
+    line-height: 20px;
+}
+}
+
+
+@media (max-width: 400px) { 
+.lead {
+    font-size: 16px;
+    line-height: 20px;
+}
 }
  
